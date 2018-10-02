@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h1>Welcome to Ionic!</h1>
+  <strong>Entity Model With Ionic</strong>
+  <ion-list no-lines>
+    <p *ngFor="let data of staticPostsDataArray">
+      <strong>Id :</strong> {{data.id}}<br>
+      <strong>User Id :</strong> {{data.userId}}<br>
+      <strong>Title :</strong> {{data.title}}<br>
+      <strong>Body :</strong> {{data.body}}<br>
+    </p>
+  </ion-list>
+</ion-content>
