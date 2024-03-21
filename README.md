@@ -17,5 +17,7 @@ This repository will show you how to implement the data model in an application 
 
 See more: https://www.snippet-developer.com/tools/entity-model-with-ionic
 
+View Demo: https://www.snippet-developer.com/demos/entity-model-with-ionic-3/www/index.html
+
 # Contact: 
 snippetdeveloper@gmail.com
